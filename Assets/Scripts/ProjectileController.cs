@@ -20,4 +20,9 @@ public class ProjectileController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void RemoveForce()
+	{
+		rb.velocity = new Vector2 (0, 0);
+	}
 }
